@@ -11,13 +11,13 @@
 from setuptools import setup
 
 setup(
-    name = "wifijammer",
-    version = "0.1",
+    name = "takeme",
+    version = "2",
     author = "Mark Jeferson Tumolva",
     description = "Continuously jam all wifi clients and access points within range.",
     keywords = "WiFi 802.11 jammer deauth",
-    scripts=['wifijammer'],
-    # py_modules=['wifijammer'],
+    scripts=['takeme2'],
+    # py_modules=['takeme2'],
     install_requires=['scapy'],
     long_description="Continuously jam all wifi clients and access points within range.",
     classifiers=[
